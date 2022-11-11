@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 /*css reset*/
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 :root {
@@ -112,6 +114,7 @@ html {
     border-radius: 10px;
     font-size: 1.8rem;
     box-sizing: border-box;
+    
 }
 
 .task:focus {
@@ -119,7 +122,6 @@ html {
 }
 
 .deleteBtn {
-   
     position: absolute;
     right: 2%;
     height: 46%;
@@ -150,12 +152,10 @@ html {
         width: 70vw;
         height: 75vh;
     }
-
-   
 }
 @media (max-width:500px) {
     html{
-        font-size: 37%;
+        font-size: 50%;
     }
     .input-wrap{
         margin-top: 12%;
@@ -163,7 +163,5 @@ html {
     .box {
         width: 90vw;
         height: 65vh;
-    }
-
-    
+    } 
 }
